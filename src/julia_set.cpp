@@ -27,6 +27,7 @@ public:
 private:
     void draw() {
         double cr = (rand() % 2 == 0) ? -0.7    : -0.4; // sonar-resolve [accept] cpp:S5020,cpp:S2245 "This is fine"
+
         double ci = (rand() % 2 == 0) ?  0.27015 :  0.6;
 
         auto pixels = std::make_unique<int[]>(WIDTH * HEIGHT);
