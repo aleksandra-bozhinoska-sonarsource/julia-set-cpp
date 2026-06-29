@@ -21,6 +21,7 @@ class JuliaRenderer : public Renderer {
 public:
     void render() override {
         g_render_count++;
+
         draw();
     }
 
